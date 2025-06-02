@@ -26,9 +26,9 @@ public class MyTabFragment extends Fragment {
         baseLayout.setOrientation(LinearLayout.VERTICAL);
         baseLayout.setLayoutParams(params);
 
-        if (tabName.equals("Spring")) baseLayout.setBackgroundColor(Color.RED);
+        if (tabName.equals("Spring")) baseLayout.setBackgroundColor(Color.WHITE);
         if (tabName.equals("Summer")) baseLayout.setBackgroundColor(Color.GREEN);
-        if (tabName.equals("Autumn")) baseLayout.setBackgroundColor(Color.BLUE);
+        if (tabName.equals("Autumn")) baseLayout.setBackgroundColor(Color.rgb(165,42,42));
 
         return baseLayout;
     }
