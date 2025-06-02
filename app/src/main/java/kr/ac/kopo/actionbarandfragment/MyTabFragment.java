@@ -15,7 +15,7 @@ public class MyTabFragment extends Fragment {
     public void oncreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Bundle data = getArguments();
-        tabName = data.getString("tabname");
+        tabName = data.getString("tabName");
     }
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(
